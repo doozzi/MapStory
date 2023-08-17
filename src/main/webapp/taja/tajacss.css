@@ -1,0 +1,74 @@
+@charset "UTF-8";
+html, body{height: 100%}
+body{
+  background: rgba(44, 62, 80,1.0);
+}
+.card{
+  width: 740px;
+  padding: 30px;
+  background: #1abc9c;
+  margin: auto;
+  transition: .3s ease;
+  box-shadow: 0 1px 1px rgba(0,0,0,.3);
+	border-top-right-radius: 1em;
+	border-top-left-radius: 1em;
+}
+.entry-title{
+	color : white;
+}
+.entry-title:hover {
+	color : white;
+    box-shadow: 0 5px 20px rgba(0,0,0,.8);
+    transform: translateY(-10px) scale(1.02);
+}
+
+body {
+	background-size: cover
+}
+
+#info {
+	float: left;
+	margin-left: 50px;
+	font-size: 30px;
+	color: gray;
+}
+
+#contents {
+	background-image: url("./img.jpg");
+	width: 800px;
+	height: 700px;
+	margin: 0px auto;
+	border: 1px solid black;
+	border-bottom-right-radius: 1em;
+	border-bottom-left-radius: 1em;
+}
+
+#tajaContents {
+	width: 100%;
+	height: 95%;
+	position: relative;
+	color: black;
+}
+
+#inputContents {
+	text-align: center;
+	border-top-style: solid;
+	border-top-color: black;
+	padding-top: 5px;
+}
+
+#inputText {
+	display: inline-block;
+}
+
+#inputBtn {
+	display: inline-block;
+}
+
+div {
+	text-align: center;
+}
+form{
+	text-align: center;
+}
+

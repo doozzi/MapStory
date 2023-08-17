@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+}
+
+.list_wrap {
+  max-width: 1400px;
+  height: 880px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.list_wrap .slide {
+  width: 1200px;
+  font-size: 0;
+  list-style: none;
+  transition:transform 1s cubic-bezier(0.85, 0, 0.15, 1) ;
+  position: absolute;
+}
+
+#slide1 {  left: 0; }
+#slide2 {  left: 100%; }
+#slide3 {  left: 200%; }
+#slide4 {  left: 300%; }
+#slide5 {  left: 400%; }
+#slide6 {  left: 500%; }
+
+.list_wrap .slide li {
+  list-style: none;
+}
+
+.list_wrap ul:not(:first-child){
+  float: left;
+  margin-left: 100px;
+}
+
+.image {
+	border-radius: 16px 16px 0 0;
+}
+
+.list_wrap .item {
+  border-radius: 16px;
+  display: inline-block;
+  width: 30%;
+  margin-top: 40px;
+  margin-left: 5%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.list_wrap .item:nth-child(3n-2) {
+  margin-left: 0;
+}
+
+.list_wrap .item .image{
+  width: 100%;
+  height: 250px;
+  background-color: #ddd;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+/* .list_wrap .item1 .image { background-image: url("../518images/구\ 적십자병원.jpg"); }
+.list_wrap .item2 .image { background-image: url("../518images/518\ 구묘지.jpg"); }
+.list_wrap .item3 .image { background-image: url("../518images/518\ 민주광장.jpg"); }
+.list_wrap .item4 .image { background-image: url("../518images/518최초발포지.jpg"); }
+.list_wrap .item5 .image { background-image: url("../518images/YMCA.jpg"); }
+.list_wrap .item6 .image { background-image: url("../518images/고\ 홍남순\ 변호사\ 가옥.jpg"); }
+.list_wrap .item7 .image { background-image: url("../518images/광목간\ 양민\ 학살지.jpg"); }
+.list_wrap .item8 .image { background-image: url("../518images/광주MBC\ 옛터.jpg"); }
+.list_wrap .item9 .image { background-image: url("../518images/광주YMCA옛터.jpg"); }
+.list_wrap .item10 .image { background-image: url("../518images/광주공원광장-시민군\ 편성지.jpg"); }
+.list_wrap .item11 .image { background-image: url("../518images/광주교도소.jpg"); }
+.list_wrap .item12 .image { background-image: url("../518images/광주기독병원.jpg"); }
+  */
+.list_wrap .item .cont {
+  padding: 12px;
+}
+
+.list_wrap .item strong{
+  display: block;
+  margin: 0 0 10px 0;
+  font-size: 13px;
+  letter-spacing: -1px;
+}
+
+.list_wrap .item p {
+  font-size: 13px;
+  letter-spacing: -1px;
+  font-family: 'LeeSeoyun';
+}
+
+#slide-radio1:checked ~ .slide {transform:translateX(0);}
+#slide-radio2:checked ~ .slide {transform:translateX(-117%);}
+#slide-radio3:checked ~ .slide {transform:translateX(-234%);}
+#slide-radio4:checked ~ .slide {transform:translateX(-351%);}
+#slide-radio5:checked ~ .slide {transform:translateX(-468%);}
+#slide-radio6:checked ~ .slide {transform:translateX(-585%);}
+
+input {
+  display: none; 
+}
+
+.bullets{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+  z-index: 2;
+}
+.bullets label{
+  display: inline-block;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.55);
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.list_wrap input[type=radio]:nth-child(1):checked~.bullets>label:nth-child(1){
+  background-color: skyblue;
+}
+.list_wrap input[type=radio]:nth-child(2):checked~.bullets>label:nth-child(2){
+  background-color: skyblue;
+}
+.list_wrap input[type=radio]:nth-child(3):checked~.bullets>label:nth-child(3){
+  background-color: skyblue;
+}
+.list_wrap input[type=radio]:nth-child(4):checked~.bullets>label:nth-child(4){
+  background-color: skyblue;
+}
+.list_wrap input[type=radio]:nth-child(5):checked~.bullets>label:nth-child(5){
+  background-color: skyblue;
+}
+.list_wrap input[type=radio]:nth-child(6):checked~.bullets>label:nth-child(6){
+  background-color: skyblue;
+}
