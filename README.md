@@ -8,3 +8,8 @@
 - 'Java 8'
 - **IDE** : Eclipse, VS Code
 - **Database** : Oracle 
+
+## Usecase 
+
+
+## DB Schema
