@@ -14,3 +14,4 @@
 
 
 ## DB Schema
+![erd](https://github.com/doozzi/MapStory/assets/102228584/eccca926-2158-4a32-b82a-09733cd63cd9)
