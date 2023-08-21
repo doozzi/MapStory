@@ -10,6 +10,7 @@
 - **Database** : Oracle 
 
 ## Usecase 
+![image](https://github.com/doozzi/MapStory/assets/102228584/ecd01241-7018-480b-bf32-120b3225e115)
 
 
 ## DB Schema
