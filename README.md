@@ -10,7 +10,8 @@
 - **Database** : Oracle 
 
 ## Usecase 
-![image](https://github.com/doozzi/MapStory/assets/102228584/ecd01241-7018-480b-bf32-120b3225e115)
+![image](https://github.com/doozzi/MapStory/assets/102228584/61742c53-f756-4864-9038-7582a53037ac)
+
 
 
 ## ERD
